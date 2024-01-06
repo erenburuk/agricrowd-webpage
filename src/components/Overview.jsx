@@ -2,9 +2,9 @@ import React from 'react';
 
 const Overview = () => {
   return (
-    <div className='flex flex-wrap items-center justify-between p-16'>
-      <div className='w-full md:w-1/2 lg:w-2/3 xl:w-3/6 overflow-auto ml-12'>
-        <h2 className='text-5xl font-bold text-green-500 green mb-8'>
+    <div className='flex flex-wrap items-center justify-between' id='overview'>
+      <div className='w-full md:w-1/2 xl:w-3/6 overflow-auto p-12'>
+        <h2 className='text-3xl font-bold text-green-500 green mb-4 md:text-4xl'>
           Agricrowd
         </h2>
         <p className='text-base'>
@@ -30,13 +30,11 @@ const Overview = () => {
           endeavors.
         </p>
       </div>
-      <div className='w-full md:w-1/2 lg:w-1/3 xl:w-2/6 mr-12'>
-        <img
-          src='/images/crowd-4.png'
-          alt='Crowdfunding'
-          className='w-full h-auto'
-        />
-      </div>
+      <img
+        src='/images/crowd-4.png'
+        alt='Crowdfunding'
+        className='w-full h-auto md:w-1/2 sm:py-0 sm:px-12 lg:p-12'
+      />
     </div>
   );
 };
