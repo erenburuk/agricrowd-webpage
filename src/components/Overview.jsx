@@ -3,7 +3,7 @@ import React from 'react';
 const Overview = () => {
   return (
     <div className='flex flex-wrap items-center justify-between' id='overview'>
-      <div className='w-full md:w-1/2 xl:w-3/6 overflow-auto p-12'>
+      <div className='w-full md:w-full lg:w-7/12 xl:w-3/6 overflow-auto pb-12 pl-12 pr-12 lg:pr-0 pt-8 sm:pt-12'>
         <h2 className='text-3xl font-bold text-green-500 green mb-4 md:text-4xl'>
           Agricrowd
         </h2>
@@ -33,7 +33,7 @@ const Overview = () => {
       <img
         src='/images/crowd-4.png'
         alt='Crowdfunding'
-        className='w-full h-auto md:w-1/2 sm:py-0 sm:px-12 lg:p-12'
+        className='px-6 w-full sm:py-0 sm:px-12 lg:p-12 lg:w-5/12'
       />
     </div>
   );

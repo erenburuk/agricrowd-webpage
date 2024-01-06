@@ -40,16 +40,16 @@ const Navbar = () => {
       </label>
       <nav
         aria-label='Header Navigation'
-        class='flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all mt-4 md:mt-0 peer-checked:max-h-56 md:items-end lg:items-center lg:max-h-full lg:flex-row lg:justify-end'
+        class='flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all md:mt-0 peer-checked:max-h-56 md:items-end lg:items-center lg:max-h-full lg:flex-row lg:justify-end'
       >
-        <div class='flex flex-col items-center space-y-4 lg:gap-8 lg:flex-row lg:space-y-0 lg:py-2'>
+        <div class='flex flex-col items-center space-y-4 lg:gap-6 lg:flex-row lg:space-y-0 lg:py-2 lg:pl-12'>
           <Link
             to='perspective'
             spy={true}
             smooth={true}
-            offset={50}
+            offset={0}
             duration={500}
-            className='cursor-pointer hover:text-green-500'
+            className='mt-4 lg:mt-0 cursor-pointer hover:text-green-500'
           >
             Our Perspective
           </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             to='overview'
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-50}
             duration={500}
             className='cursor-pointer hover:text-green-500'
           >
@@ -67,7 +67,7 @@ const Navbar = () => {
             to='documents'
             spy={true}
             smooth={true}
-            offset={-150}
+            offset={-100}
             duration={500}
             className='cursor-pointer hover:text-green-500'
           >

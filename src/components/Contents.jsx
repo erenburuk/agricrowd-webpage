@@ -8,52 +8,52 @@ const Contents = () => {
           Project Documents
         </h2>
         <ul className='list-none px-4 text-center'>
-          <li className='py-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='pb-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Project-Work-Plan'
               target='_blank'
               rel='noopener noreferrer'
-              className='border-b pb-1'
+              className='border-b pb-1 leading-8'
             >
               Project Work Plan
             </a>
           </li>
-          <li className='py-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='pb-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Literature-Review'
               target='_blank'
               rel='noopener noreferrer'
-              className='border-b pb-1'
+              className='border-b pb-1 leading-8'
             >
               Literature Review
             </a>
           </li>
-          <li className='py-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='pb-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Software-Requirement-Specification'
               target='_blank'
               rel='noopener noreferrer'
-              className='border-b pb-1'
+              className='border-b pb-1 leading-8'
             >
               Software Requirement Specification
             </a>
           </li>
-          <li className='py-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='pb-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Software-Design-Description'
               target='_blank'
               rel='noopener noreferrer'
-              className='border-b pb-1'
+              className='border-b pb-1 leading-8'
             >
               Software Design Description
             </a>
           </li>
-          <li className='py-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Project-Report'
               target='_blank'
               rel='noopener noreferrer'
-              className='border-b pb-1'
+              className='border-b pb-1 leading-8'
             >
               Project Report
             </a>
