@@ -48,7 +48,7 @@ const Contents = () => {
               Software Design Description
             </a>
           </li>
-          <li className='transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+          <li className='pb-4 transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
             <a
               href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/wiki/Project-Report'
               target='_blank'
@@ -56,6 +56,16 @@ const Contents = () => {
               className='border-b pb-1 leading-8'
             >
               Project Report
+            </a>
+          </li>
+          <li className='transition ease-in-out hover:text-green-500 hover:-translate-y-1 hover:scale-110 duration-300'>
+            <a
+              href='https://github.com/CankayaUniversity/ceng-407-408-2023-2024-AGRICROWD-Tarimda-Kitlesel-Fonlama-Uygulamasi/blob/main/docs/Project%20Presentation.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='border-b pb-1 leading-8'
+            >
+              Project Presentation
             </a>
           </li>
         </ul>
