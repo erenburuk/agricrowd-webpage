@@ -64,6 +64,16 @@ const Navbar = () => {
             Agricrowd
           </Link>
           <Link
+            to='youtube'
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+            className='mt-4 lg:mt-0 cursor-pointer hover:text-green-500'
+          >
+            Demo Video
+          </Link>
+          <Link
             to='documents'
             spy={true}
             smooth={true}
